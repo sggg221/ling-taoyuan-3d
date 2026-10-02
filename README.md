@@ -1,5 +1,7 @@
 # 桃源 · 豁然开朗
 
+[在线体验](https://sggg221.github.io/ling-taoyuan-3d/) · [部署状态](https://github.com/sggg221/ling-taoyuan-3d/actions)
+
 基于陶渊明《桃花源记》的交互式三维网页，使用 Ling-3.1-flash 生成场景代码，由 Codex 辅助整合、修改与测试。
 
 视觉与交互组织参考 [宝玉的桃花源页面](https://s.baoyu.io/files/peach-blossom-land-v2/index.html)。本项目重新实现场景和交互，未打包参考页源码或音频。
@@ -37,7 +39,7 @@ npm run build
 
 ## GitHub Pages
 
-仓库包含 `.github/workflows/pages.yml`。在仓库的 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**，然后运行 **Deploy webpage to GitHub Pages** 工作流。
+本仓库已启用 GitHub Pages，使用 `.github/workflows/pages.yml` 自动发布。自行复制此仓库时，在 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**，然后运行 **Deploy webpage to GitHub Pages** 工作流。
 
 后续提交到 `main` 后会自动发布 `dist/` 中的成品。修改源码后，请先运行 `npm run build`，将更新的源码和 `dist/index.html` 一起提交。
 
