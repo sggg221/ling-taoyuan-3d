@@ -1,0 +1,7 @@
+{
+  "name": "ling-taoyuan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "build": "node scripts/build.cjs" },
+  "devDependencies": { "esbuild": "0.25.0", "three": "0.160.0" }
+}
